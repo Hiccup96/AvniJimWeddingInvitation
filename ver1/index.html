@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik & Akshata's Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Floating Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#our-story">Our Story</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+            <li><a href="#location">Location</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="welcome">
+        <h1>The One Where They Get Married</h1>
+        <p>Karthik & Akshata</p>
+        <p>Date: December 20, 2024</p>
+        <button onclick="scrollToSection('our-story')">Discover Our Story</button>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="our-story">
+        <h2>Our Story</h2>
+        <div class="story-content">
+            <div class="story-block">
+                <h3>Season 1</h3>
+                <p>How They Met: Just like Jim and Pam!</p>
+            </div>
+            <div class="story-block">
+                <h3>Season 2</h3>
+                <p>Adventures like Jake & Amy, Marvel Fans United!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details Section -->
+    <section id="events">
+        <h2>Event Details</h2>
+        <div class="event-block">
+            <h3>Ceremony</h3>
+            <p>Location: The Marvel Shield Venue</p>
+            <p>Time: 10:00 AM</p>
+        </div>
+        <div class="event-block">
+            <h3>Reception</h3>
+            <p>Location: Central Perk-uation</p>
+            <p>Time: 6:00 PM</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="photo-grid">
+            <div class="photo"><img src="img/IMG_0191.PNG" alt="Photo 1"><p>"Pivot!" - Friends</p></div>
+            <div class="photo"><img src="img/IMG_0191.PNG" alt="Photo 2"><p>"Schmidt's Jar" - New Girl</p></div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label>Will you attend?</label>
+            <select>
+                <option>I am in!</option>
+                <option>I’d rather not snap away</option>
+            </select>
+            <button type="submit">RSVP</button>
+        </form>
+    </section>
+
+    <!-- Location Map Section -->
+    <section id="location">
+        <h2>Location</h2>
+        <p>Venue: Central Perk-uation (123 Wedding St.)</p>
+        <img src="img/map-placeholder.jpg" alt="Map">
+    </section>
+
+    <!-- Countdown Timer -->
+    <section id="countdown">
+        <h2>Countdown to the Season Finale</h2>
+        <p id="timer">Loading...</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
