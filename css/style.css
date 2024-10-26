@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: #fff;
+  background: #ebd2a8;
 }
 
 #page {
@@ -891,6 +891,7 @@ form label {
   font-size: 16px;
   font-family: Sofia Sans Condensed;
   text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
 }
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
